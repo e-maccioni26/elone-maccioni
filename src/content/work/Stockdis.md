@@ -1,7 +1,7 @@
 ---
 title: Stockdis
 publishDate: 2019-10-02 00:00:00
-img: /assets/Stockdis2.png
+img: /elone-maccioni/assets/Stockdis2.png
 img_alt: Site Stockdis
 description: Janvier 2023 |
 tags:

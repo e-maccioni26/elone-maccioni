@@ -1,7 +1,7 @@
 ---
 title: EnCuisineAvecTsipo
 publishDate: 2020-03-02 00:00:00
-img: /assets/Logo(1).png
+img: /elone-maccioni/assets/Logo(1).png
 img_alt: Site EncuisineAvecTsipo
 description: Février 2023 |
 

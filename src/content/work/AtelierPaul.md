@@ -1,7 +1,7 @@
 ---
 title: AtelierPaul
 publishDate: 2019-12-01 00:00:00
-img: /assets/logo_atelierPaul.jpg
+img: /elone-maccioni/assets/logo_atelierPaul.jpg
 img_alt: Site AtelierPaul
 description: Novembre 2022 |
 

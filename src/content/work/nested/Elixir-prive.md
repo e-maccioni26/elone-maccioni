@@ -1,7 +1,7 @@
 ---
 title: Elixir-prive
 publishDate: 2020-03-04 00:00:00
-img: /assets/logo-elixir.jpg
+img: /elone-maccioni/assets/logo-elixir.jpg
 img_alt: Site Elixir-Prive
 description: Avril 2022 |
 tags:
