@@ -5,7 +5,7 @@ img: /elone-maccioni/assets/Stockdis2.png
 img_alt: Site Stockdis
 description: Janvier 2023 |
 tags:
-  - Dev
+  - PHP
   - CSS
   - Javascript
   - HTML

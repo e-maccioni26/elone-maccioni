@@ -5,7 +5,7 @@ img: /elone-maccioni/assets/logo-elixir.jpg
 img_alt: Site Elixir-Prive
 description: Avril 2022 |
 tags:
-  - Dev
+  - Liquid
   - CSS
   - Javascript
   - HTML

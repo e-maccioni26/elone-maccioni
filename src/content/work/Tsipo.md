@@ -6,10 +6,11 @@ img_alt: Site EncuisineAvecTsipo
 description: Février 2023 |
 
 tags:
-  - Dev
   - CSS
   - Javascript
   - HTML
+  - PHP
+  - SQL
 
 ---
 

@@ -6,10 +6,10 @@ img_alt: Site AtelierPaul
 description: Novembre 2022 |
 
 tags:
-  - Dev
   - CSS
   - Javascript
   - HTML
+  - Liquid
 ---
 > Description de la mission
 
