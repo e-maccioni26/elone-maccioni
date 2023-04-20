@@ -3,56 +3,64 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Icon from '../components/Icon.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="À propos | Maccioni Elone" description="À propos d'Elone Maccioni">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="À propos"
+				tagline="Ici, vous trouverez toutes les informations clés me concernant, ma formation, mes compétences ainsi que mes expériences professionnelles."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/profil.png"
+					alt="Encore une photo de moi ;)"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Ma formation</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Actuellement, je suis en troisième et dernière année de Bachelor Chef de Projet Digital à l'école <a href="#">Digital School Of Paris</a> à Vincennes.
+						C'est un cursus trés complet ou j'ai pu apprendre les diférentes méthodologies de gestion de projet avec notamment la méthode Agile, du développement Web avec différents languages tels que : HTML/CSS, Javascript, PHP et Mysql, mais aussi de l'UI/UX et de l'algorithmie. Grâce à cette formation, je me suis rendu compte que j'avais une réel passion pour l'informatique et que je voulais poursuivre ma carrière dans cette direction. Etant autodidacte, je me renforce de mon côté en effectuant des projets personnels comme des sites web et des jeux...
 					</p>
+					<br>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						En septembre 2023, je suis fier d'intégrer l'école <a href="#">Efrei Paris</a> afin d'effectuer mon Master en tant que Dev Manager Full Stack. Cette école de renom ainsi que son programme, vont me permettre de renforcer mes compétences et d'apprendre de nouvelles technologies. Je suis impatient de démarer cette nouvelle aventure !
 					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
+				</div>
+				
+			</section>
+			<section>
+				<h2 class="section-title">Mes compétences</h2>
+				<div class="content">
+					<p>HTML/CSS, PHP, Javascript, SQL, Python, Java</p>
+					<a href="#">Frameworks</a><p>ReactJs, Symfony, Bootstrap</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Mes atouts</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>🚀 Autonome: Je suis comme un robot à énergie solaire, capable de travailler sans supervision, sans avoir besoin d'être rechargé tous les 5 minutes !</p>
+					<br><p>🤝 Esprit d'équipe: Telle une abeille dans une ruche, je travaille en harmonie avec mes collègues pour atteindre nos objectifs communs. Ensemble, on fait du miel et des merveilles !</p>
+					<br><p>🔍 Curieux: Mon cerveau est insatiable, toujours en quête de nouvelles connaissances. Si Sherlock Holmes avait un cousin éloigné dans le monde du travail, ce serait moi !</p>
+					<br><p>🏋️ Persévérance: Je ne lâche jamais l'affaire, même quand les choses se corsent. Mon mantra : "S'il n'y a pas de solution, c'est qu'il n'y a pas de problème !" (ou un truc dans le genre 😉)</p>
+					<br><p>🎭 Polyvalent: Je suis un véritable couteau suisse, capable de me déployer dans toutes sortes de situations. Besoin d'un développeur ? Un chef de projet ? Je suis votre homme à tout faire !</p>
+					<br><p>🔐 Fiabilité: Vous pouvez me confier vos projets les plus précieux sans crainte. Je suis comme une banque suisse, mais en plus cool et sans les frais exorbitants !</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Mes expériences professionnelles</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<CallToAction href="/assets/CV-Dev Full Stack.pdf">
+						Voir mes expériences professionnelles
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
 				</div>
 			</section>
 		</main>
@@ -70,7 +78,7 @@ import Hero from '../components/Hero.astro';
 
 	img {
 		margin-top: 1.5rem;
-		border-radius: 1.5rem;
+		border-radius: 20.5rem;
 		box-shadow: var(--shadow-md);
 	}
 

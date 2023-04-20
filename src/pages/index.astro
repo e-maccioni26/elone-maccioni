@@ -30,14 +30,12 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, je m'appelle Elone Maccioni"
+					tagline="Futur étudiant en master Dev Manger Full Stack au sein de l'école Efrei, je suis à la recherche d'une alternance rentrée prochaine (septembre 2023)."
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
 					</div>
 				</Hero>
 
@@ -45,7 +43,7 @@ const projects = (await getCollection('work'))
 					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/portrait.png"
 				/>
 			</header>
 
@@ -55,8 +53,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Mes derniers projets</h3>
+					<p>Découvrez mes derniers projets réalisés pour des clients</p>
 				</header>
 
 				<div class="gallery">
@@ -73,32 +71,22 @@ const projects = (await getCollection('work'))
 
 				<div class="cta">
 					<CallToAction href="/work/">
-						View All
+						Voir tous mes projets
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
 			</section>
 
 			<section class="section with-background bg-variant">
+				
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
+					<CallToAction href="/assets/CV-Dev Full Stack.pdf">
+						Voir mon CV
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
 				</header>
 
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
+				
 			</section>
 		</main>
 
@@ -118,13 +106,13 @@ const projects = (await getCollection('work'))
 		display: none;
 	}
 
-	.hero img {
+	/* .hero img {
 		aspect-ratio: 5 / 4;
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
-	}
+	} */
 
 	@media (min-width: 50em) {
 		.hero {
@@ -140,11 +128,11 @@ const projects = (await getCollection('work'))
 			gap: 0.5rem;
 		}
 
-		.hero img {
+		/* .hero img {
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
-		}
+		} */
 	}
 
 	/* ====================================================== */
@@ -169,7 +157,7 @@ const projects = (await getCollection('work'))
 		aspect-ratio: calc(2.25 / var(--bg-scale));
 		top: 0;
 		transform: translateY(-75%) translateX(-50%);
-		background: url('/assets/backgrounds/noise.png') top center/220px repeat,
+		background: url('/assets/noise.png') top center/220px repeat,
 			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat, var(--gray-999);
 		background-blend-mode: overlay, normal, normal, normal;
 		mix-blend-mode: var(--bg-blend-mode);
